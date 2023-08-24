@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Ubuntu", sans-serif;
+}
+.parallax {
+  /* The image used */
+  background-image: url("./carolina-nichitin-UcSPxK85wWk-unsplash.jpg");
+
+  /* Set a specific height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_2 {
+  background-image: url("./jasper-garratt-u7zB3OyuDZU-unsplash.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax > p,
+.parallax_2 > p {
+  font-size: 24px;
+  font-weight: 500;
+  background-color: rgba(16, 16, 16, 0.5);
+  padding: 1rem;
+  color: whitesmoke;
+  border-radius: 6px;
+}
+.text-container {
+  height: 10rem;
+  padding: 1rem;
+}
+.text-container > p {
+  background-color: rgba(49, 49, 255, 0.2);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  font-size: 18px;
+}
